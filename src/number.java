@@ -8,7 +8,7 @@ class number {
         for (int i = 0; i < 100; i++) {
             arr[i] = scan.nextInt();
             if (arr[i] <= 7) {
-                System.out.printf("Меньше 7\n");
+                System.out.printf("Не больше 7\n");
                 System.out.printf("Введите число:\n");
             } else if (arr[i] > 7) {
                 System.out.printf("Привет");
